@@ -1,6 +1,15 @@
 
 //This is code for sorting an array using selection sort algorithm
-//Time complexity : O(n²)
+
+/* 
+* The selection sort algorithm sorts an array by repeatedly finding 
+the minimum element  from unsorted part and putting it at the beginning.    
+
+* Time complexity : O(n²)
+* Auxiliary space : O(1)
+* In-Place sorting : Yes
+* Stable : No
+*/
 
 
 #include<iostream>
@@ -36,3 +45,6 @@ int main()
 }
 
 
+/* INPUT : 0 4 6 1 8 2 9 3 7 5
+* OUTPUT : 0 1 2 3 4 5 6 7 8 9 
+*/
