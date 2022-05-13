@@ -1,4 +1,5 @@
 // Merge sort in C++
+//Here we can use 'array_rdm.h' user-define header file to generate randam number of array.
 
 #include <iostream>
 #include"array_rdm.h"
